@@ -1,0 +1,13 @@
+.top-index{
+   position: relative;
+   z-index: 999;
+}
+
+.section-heading{
+   font-family: 'Century Gothic Regular';
+   font-size: 35px;
+   color: $color-white;
+   span{
+      font-family: 'Century Gothic Bold';
+   }
+}

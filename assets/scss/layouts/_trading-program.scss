@@ -1,0 +1,27 @@
+.trading-program{
+   .top-section{
+      padding: 50px 0;
+      background: url(../images/trading-program/bg.png) no-repeat top center/cover;      
+   }
+
+
+   .bottom-section{
+      background: url(../images/trading-program/btg.png) no-repeat top center/cover; 
+   
+      .section-header{
+
+         h2{
+            margin: 25px 0;
+            font-family: 'Century Gothic Bold';
+            color: $color-white;
+            font-size: 25px;
+            text-transform: uppercase;
+
+            span{
+               color: $color-white;
+               font-size: 40px;
+            }
+         }
+      }
+   }
+}

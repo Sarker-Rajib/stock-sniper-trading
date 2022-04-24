@@ -1,0 +1,92 @@
+// message-form starts
+.message-form{
+   margin: 20px 0;
+   border-radius: 15px;
+   overflow: hidden;
+
+   .form-header{
+      background: $color-ass;
+      padding: 15px 0;
+
+      h3{
+         font-family: 'Century Gothic Regular';
+         font-size: 30px;
+         color: $color-white;
+      }
+   }
+
+   .form-body{
+      padding: 0 30px;
+      background: rgba($color-ass, 0.6);
+
+      .input-item{
+         display: flex;
+         align-items: center;
+         border-bottom: 1px solid #5e616a;
+
+         .input-box{
+            background: transparent;
+            border: none;
+         }
+      }
+
+      .custom-red-button{
+         margin: 20px 0;
+      }
+   }
+}
+
+
+// newsletter starts
+.newsletter-form{
+   padding-top: 70px;
+
+   .form-header{
+      text-align: center;
+      h2{
+         font-family: 'Century Gothic Bold';
+         font-size: 33px;
+         color: $color-white;
+         
+         span{
+            font-family: 'Century Gothic Regular';
+            font-size: 33px;
+            color: $color-white;
+         }
+      }
+   }
+
+   .form-body{
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+      border-radius: 40px;
+      background: rgba($color-ass, 0.6);
+      width: 50%;
+
+      @media screen and (max-width: 991px) {
+         width: 100%;           
+      }
+
+      .fa-envelope{
+         margin-left: 25px;
+         color: $color-white;
+         font-size: 25px;
+      }
+
+      .input{
+         background: transparent;
+         border: none;
+         color: #fff;
+      }
+
+      .btn{
+         margin-right: 20px;
+
+         @media screen and (max-width: 450px) {
+            padding: 10px;        
+         }
+      }
+   }
+}

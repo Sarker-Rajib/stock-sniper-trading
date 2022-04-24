@@ -1,0 +1,8 @@
+.membership-program{
+   padding-top: 120px;
+   background: url(../images/membership/full-member-bg.png);
+
+   @media screen and (max-width: 768px){
+      padding-top: 25px;      
+   }
+}
