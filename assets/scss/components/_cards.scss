@@ -190,9 +190,10 @@
 
 // membership-bottom-card starts
 .membership-bottom-card{
+   overflow: hidden;
    padding: 25px 20px;
    height: 100%;
-   border-radius: 15px;
+   border-radius: 25px;
    display: flex;
    flex-direction: row;
    align-items: center;
