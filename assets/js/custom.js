@@ -5,7 +5,7 @@ function menuShow(){
    const targetNav = document.querySelector('.hidden');
    
    if(targetNav.style.height === '100%'){
-      targetNav.style.height = '35px';
+      targetNav.style.height = '42px';
    }else {
       targetNav.style.height = '100%';
    }

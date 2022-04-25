@@ -24,6 +24,7 @@
          background: #1d1d1f;
          width: 100%;
          max-width: 300px;
+         margin-top: 5px;
 
          ul{
             border-bottom: 4px solid #af0e0e;
@@ -68,7 +69,7 @@
       // dashboard nav show hidden
       .hidden{
          @media(max-width: 1199px){
-            height: 35px;
+            height: 42px;
             overflow: hidden;
             transition: all 0.2s linear;
          }

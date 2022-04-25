@@ -4,37 +4,26 @@
 @import 'abstracts/variables';
 /*===// end of abstracts css === */
 
-
 /*=== base css start === */
 @import 'base/global';
 @import 'base/config';
 @import 'base/utility';
 /*===// end of base css === */
 
-
 /*=== components css start === */
 @import 'components/buttons';
 @import 'components/cards';
 @import 'components/forms';
+@import 'components/banner';
+@import 'components/trading-session';
+@import 'components/membership';
+@import 'components/trading-program';
+@import 'components/contact';
+@import 'components/social-network';
+@import 'components/dashboard';
 /*===// end of components css === */
-
 
 /*=== layouts css start === */
 @import 'layouts/navbar';
-@import 'layouts/banner';
-@import 'layouts/trading-session';
-@import 'layouts/membership';
-@import 'layouts/trading-program';
-@import 'layouts/contact';
-@import 'layouts/social-network';
 @import 'layouts/footer';
-@import 'layouts/dashboard';
 /*===// end of layouts css === */
-
-
-
-/*=== pages start === */
-
-/*===// end of pages  === */
-
-

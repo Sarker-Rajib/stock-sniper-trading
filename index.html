@@ -8,7 +8,6 @@
   <link rel='shortcut icon' href='assets/images/nav/fav-icon.png' type='image/x-icon'>
   <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
   <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/vendor/swiper/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -639,32 +638,36 @@
           </div>
           <div class="form-body">
             <div class="row g-4">
+              <!-- name input started -->
               <div class="col-md-4">
-                <div class="input-item">
-                  <div class="form-floating mb-3">
-                    <input type="email" class="form-control input-box" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput"><i class="fas fa-user"></i> Email address</label>
-                  </div>
-                  <!-- <label for="name"><i class="fas fa-user"></i></label>
-                  <input type="name" class="form-control input-box" id="name" placeholder="Your Name"> -->
+                <div class="form-floating input-item">
+                  <input type="text" class="form-control input-box" id="name" placeholder="Your Name" name="name">
+                  <label for="name"><i class="fas fa-user"></i> Your Name</label>
                 </div>
               </div>
+              <!-- name input ended -->
+
+              <!-- email input started -->
               <div class="col-md-4">
-                <div class="input-item">
-                  <label for="email"><i class="fas fa-envelope"></i></label>
-                  <input type="email" class="form-control input-box" id="email" placeholder="Your Email Address">
+                <div class="form-floating input-item">
+                  <input type="email" class="form-control input-box" id="email" placeholder="Your Email Address" name="email">
+                  <label for="email"><i class="fas fa-envelope"></i> Your Email Address </label>
                 </div>
               </div>
+              <!-- email input ended -->
+
+              <!-- phone input started -->
               <div class="col-md-4">
-                <div class="input-item">
-                  <label for="phone-number"><i class="fas fa-mobile-alt"></i></label>
-                  <input type="phone-number" class="form-control input-box" id="phone-number" placeholder="Your Number">
+                <div class="form-floating input-item">
+                  <input type="text" class="form-control input-box" id="phone-number" placeholder="Your Number" name="Mobile Number">
+                  <label for="phone-number"><i class="fas fa-mobile-alt"></i> Your Number</label>
                 </div>
               </div>
+              <!-- phone input ended -->
               <div class="col-12">
-                <div class="input-item">
-                  <label for="textarea"><i class="fas fa-comment-alt-dots"></i></label>
-                  <textarea name="Your Message" id="textarea" class="form-control input-box" cols="" rows="5"></textarea>
+                <div class="input-item form-floating">
+                  <textarea type="text" class="form-control input-box" name="Your Message" id="textarea" placeholder="Your Message "></textarea>
+                  <label for="textarea"><i class="fas fa-comment-alt-dots"></i> Your Message </label>
                 </div>
               </div>
             </div>
@@ -858,14 +861,10 @@
     </div>
   </footer>
   <!-- ===//end of footer section === -->
- 
-
- 
+  
 
 
-  <script src="assets/vendor/bootstrap/js/popper.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/vendor/swiper/js/swiper-bundle.min.js"></script>
   <script src="assets/js/custom.js"></script>
 </body>
 </html>
