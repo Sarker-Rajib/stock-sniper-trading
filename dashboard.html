@@ -118,7 +118,19 @@
 
   <!-- ===// Script starts from here -->
   <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script>
+  { function menuShow(){
+    const targetNav = document.querySelector('.hidden');
+    
+    if(targetNav.style.height === '100%'){
+      targetNav.style.height = '42px';
+    }else {
+      targetNav.style.height = '100%';
+    }
+
+    }
+  }
+  </script>
   <!-- ===// Script ended here -->
 </body>
 </html>

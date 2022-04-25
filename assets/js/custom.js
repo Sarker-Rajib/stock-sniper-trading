@@ -1,17 +1,3 @@
-// dashboard menu show hidden start
-function menuShow(){
-   const navShowBtn = document.getElementById('menu-show-btn');
-   const targetNav = document.querySelector('.hidden');
-   
-   if(targetNav.style.height === '100%'){
-      targetNav.style.height = '42px';
-   }else {
-      targetNav.style.height = '100%';
-   }
-}
-// dashboard menu show hidden end
-
-
 // counter
 {(function () {
    const second = 1000,
@@ -33,7 +19,7 @@ function menuShow(){
       x = setInterval(function() {    
       const now = new Date().getTime(),
       distance = countDown - now;
-
+      
       document.getElementById("jday").innerText = Math.floor(distance / (day)),
       document.getElementById("jhour").innerText = Math.floor((distance % (day)) / (hour)),
       document.getElementById("jmin").innerText = Math.floor((distance % (hour)) / (minute)),
