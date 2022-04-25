@@ -51,3 +51,13 @@ function menuShow(){
    })
 }())};
 // counteer ends
+
+// pause video from play background
+   {
+      var vid = document.getElementById("myVideo");
+
+      function pauseVid() {
+         vid.pause();
+      }
+   }
+// ends
