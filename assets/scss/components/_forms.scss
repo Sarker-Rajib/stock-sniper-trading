@@ -18,7 +18,7 @@
    .form-body{
       padding: 0 30px;
       background: rgba($color-ash, 0.6);
-
+      margin-top: 20px;
       .input-item{
          display: flex;
          align-items: center;
@@ -27,14 +27,20 @@
          .input-box{
             background: transparent;
             border: none;
+            color: $color-white;
+
+            &:focus{
+               background: rgba($color-black, 0.3);
+            }
          }
       }
 
       .custom-red-button{
-         margin: 20px 0;
+         margin: 50px 0 20px 0;
       }
    }
 }
+// message-form ends
 
 
 // newsletter starts
@@ -78,7 +84,7 @@
       .input{
          background: transparent;
          border: none;
-         color: #fff;
+         color: $color-white;
       }
 
       .btn{
