@@ -1,13 +1,21 @@
 .social-networks{
-   padding: 70px 0;
    background: url(../images/social-links/bg.png) no-repeat top center/cover;
+   padding: 80px 0;
   
+   @media(max-width: 767px) {
+      padding: 50px 0;
+   }
+
    .section-header{
       h2{
          font-family: 'Century Gothic Bold';
          font-size: 40px;
          color: $color-white;
          text-transform: uppercase;
+
+         @media(max-width: 767px) {
+            font-size: 30px;
+         }
       }
       span{
          font-family: 'Century Gothic Regular';
@@ -38,6 +46,10 @@
                font-family: 'Century Gothic Regular';
                font-size: 20px;
                color: $color-white;
+
+               @media(max-width: 767px) {
+                  font-size: 15px;
+               }
             }
          }
       }

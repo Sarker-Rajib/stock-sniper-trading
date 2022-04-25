@@ -1,6 +1,10 @@
 .contact{
-   padding: 60px 0;
    background: url(../images/contact/background-contact.png) no-repeat top center/cover;
+   padding: 80px 0;
+  
+   @media(max-width: 767px) {
+      padding: 50px 0;
+   }
 
    .section-header{
       h2{

@@ -11,6 +11,7 @@
 
    .top-section{
       position: relative;
+      z-index: 999;
 
       &::after{
          content: "";

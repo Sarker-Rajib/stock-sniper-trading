@@ -1,6 +1,10 @@
 .market-trading-session{
-   overflow: hidden;
-   background: url(../images/market-trading/bg-1.png);
+   background: url(../images/market-trading/bg-1.png) no-repeat top center/cover;
+   padding: 80px 0;
+  
+   @media(max-width: 767px) {
+      padding: 50px 0;
+   }
 
    .market-trading-card{
       &.japan{

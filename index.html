@@ -13,7 +13,7 @@
 <body>
 
   <!-- === header section start === -->
-  <header>
+  <header class="header">
     <nav class="navbar navbar-expand-xl navbar-light">
       <div class="container">
         <a class="navbar-brand" href="#"><img class="img-fluid brand-logo" src="assets/images/nav/Icon.png" alt="Logo"></a>
@@ -47,6 +47,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item image">
+              <img src="assets/images/nav/vertical-line-copy.png" alt="vertical-bots">
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Sign In</a>
@@ -93,9 +96,9 @@
 
 
   <!-- === market trending session section start === -->
-  <section class="market-trading-session py-5">
-    <div class="container top-index">
-      <div class="section-header text-center pt-4">
+  <section class="market-trading-session">
+    <div class="container">
+      <div class="section-header text-center">
         <h1 class="section-heading">Market Trading Sessions</h1>
         <img class="img-fluid py-3" src="assets/images/market-trading/symbol.png" alt="">
       </div>
@@ -272,15 +275,15 @@
           needed to execute our Core Strategy — designed to empower you to generate income and build wealth.</p>
       </div>
       <div class="devider text-center">
-        <img class="img-fluid w-100"src="assets/images/membership/dot.png" alt="dots">
+        <img class="img-fluid w-100" src="assets/images/membership/dot.png" alt="dots">
       </div>
-      <div class="section-body py-3">
+      <div class="section-body pt-3">
         <div class="top-cards">
           <div class="row g-4">
             <div class="col-lg-4 col-md-6">
               <div class="item h-100">
                 <div class="membership-card">
-                  <img class="w-100 color-img" src="assets/images/membership/01.Bronze.png" alt="">
+                  <img class="w-100 color-img" src="assets/images/membership/01.Bronze.png" alt="color">
                   <div class="card-header text-center">
                     <div class="text">
                       <h3>monthly membership <br>
@@ -352,7 +355,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="item h-100">
                 <div class="membership-card">
-                  <img class="w-100 color-img" src="assets/images/membership/02.Silver.png" alt="" class="color-img">
+                  <img class="w-100 color-img" src="assets/images/membership/02.Silver.png" alt="color">
                   <div class="card-header text-center">
                     <div class="text">
                       <h3>Stock sniper <br>
@@ -542,7 +545,7 @@
    
   <!-- === trading-program section start === -->
   <section class="trading-program">
-    <div class="top-section">
+    <div class="top-section pb-5">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-xl-4">
@@ -603,43 +606,45 @@
       </div>
     </div>
     
-    <div class="bottom-section py-5">
+    <div class="bottom-section pt-5">
       <div class="container">
-        <div class="row text-xl-left text-center">
-          <div class="col-xl-4">
-            <div class="section-header">
-              <h2>
-                <span>new?</span>  <br>
-                 find out what we do here at <br>
-                  stock sniper tra  ding 
-              </h2>
-  
-              <div class="watch-btn m-3">
-                <button type="button" class="play-btn text-nowrap btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                  <i class="fas fa-play play-sign"></i> Click to Watch
-                </button>
+        <div class="contents">
+          <div class="row text-xl-left text-center">
+            <div class="col-xl-4">
+              <div class="section-header">
+                <h2>
+                  <span>new?</span>  <br>
+                   find out what we do here at <br>
+                    stock sniper tra  ding 
+                </h2>
+    
+                <div class="watch-btn m-3">
+                  <button type="button" class="play-btn text-nowrap btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <i class="fas fa-play play-sign"></i> Click to Watch
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          
-          <div class="col-xl-8">
-            <div class="image">
-              <!-- Modal -->
-              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content bg-dark">
-                    <div class="modal-header">
-                      <button type="button" class="p-1 btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <video class="video ratio h-100" controls>
-                        <source src="assets/video/Homepage-Stock-Sniper-Trading.mp4" type="video/mp4">
-                      </video>
+            
+            <div class="col-xl-8">
+              <div class="image">
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content bg-dark">
+                      <div class="modal-header">
+                        <button type="button" class="p-1 btn-close bg-light" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <video class="video ratio h-100" controls>
+                          <source src="assets/video/Homepage-Stock-Sniper-Trading.mp4" type="video/mp4">
+                        </video>
+                      </div>
                     </div>
                   </div>
                 </div>
+                <img class="img-fluid h-100" src="assets/images/trading-program/tablet.png" alt="image">
               </div>
-              <img class="img-fluid h-100" src="assets/images/trading-program/tablet.png" alt="image">
             </div>
           </div>
         </div>
@@ -654,9 +659,9 @@
   <section class="contact">
     <div class="container">
       <div class="section-header text-center">
-        <h2>get in touch</h2>
+        <h2 class="section-heading">get in touch</h2>
       </div>
-      <div class="message-form text-center">
+      <div class="message-form pb-2 text-center">
         <form action="#">
           <div class="form-header">
             <h3>Any questions or quires, feel free to drop us a message.</h3>
@@ -696,7 +701,7 @@
                     <label class="text-nowrap mt-4 ps-2" for="textarea"><i class="fas fa-comment-alt-dots" ></i> Your Message </label>
                 </div>
                 <div class="input-item">
-                  <textarea type="text" class="pb-3 form-control input-box" name="Your Message" id="textarea" placeholder=""></textarea>
+                  <textarea class="pb-3 form-control input-box" name="Your Message" id="textarea" placeholder=""></textarea>
                 </div>
               </div>
             </div>
@@ -707,12 +712,12 @@
         </form>
       </div>
 
-      <div class="newsletter-form">
+      <div class="newsletter-form pt-5">
         <div class="form-header">
           <h2>Subscribe to our Mailchimp Newsletter <br>
             <span>and Stay up to date with all events coming straight:</span> </h2>
         </div>
-        <div class="py-3">
+        <div class="pt-3">
             <form class="form-control form-body rounded-pill m-auto" action="#" method="Post">
               <i class="fas fa-envelope"></i>
               <input class="input form-control" type="email" name="text" placeholder="Your Email Address">
@@ -729,7 +734,7 @@
   <section class="social-networks">
     <div class="container">
       <div class="section-header text-center">
-        <h2>Stay Connected on all our networks</h2>
+        <h2 class="section-heading">Stay Connected on all our networks</h2>
         <span>to not miss out our daily fundamental and technical analysis, trades and more...</span>
       </div>
 

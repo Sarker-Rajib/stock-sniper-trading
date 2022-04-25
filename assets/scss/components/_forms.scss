@@ -19,6 +19,9 @@
       padding: 0 30px;
       background: rgba($color-ash, 0.6);
       margin-top: 20px;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px;
+
       .input-item{
          display: flex;
          align-items: center;
@@ -36,7 +39,7 @@
       }
 
       .custom-red-button{
-         margin: 50px 0 20px 0;
+         margin: 35px 0;
       }
    }
 }
@@ -45,14 +48,15 @@
 
 // newsletter starts
 .newsletter-form{
-   padding-top: 70px;
-
    .form-header{
       text-align: center;
       h2{
          font-family: 'Century Gothic Bold';
          font-size: 33px;
          color: $color-white;
+         @media(max-width: 767px) {
+            font-size: 30px;
+         }
          
          span{
             font-family: 'Century Gothic Regular';

@@ -1,14 +1,25 @@
 .trading-program{
    .top-section{
-      padding: 50px 0;
       background: url(../images/trading-program/bg.png) no-repeat top center/cover;      
+      padding-top: 80px;
+  
+      @media(max-width: 767px) {
+      padding-top: 50px;
+      }
    }
 
 
    .bottom-section{
       background: url(../images/trading-program/btg.png) no-repeat top center/cover; 
-   
+      padding-bottom: 80px;
+  
+      @media(max-width: 767px) {
+      padding-bottom: 50px;
+      }
+
       .section-header{
+         text-align: left;
+
          h2{
             margin: 25px 0;
             font-family: 'Century Gothic Bold';
@@ -41,6 +52,10 @@
             width: 100%;
             height: 100%;
             overflow: hidden;
+
+            .modal-body {
+               padding-top: 0;
+            }
 
             .button{
                position: relative;
